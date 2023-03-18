@@ -1,0 +1,68 @@
+@font-face {
+    font-family:roxboroughcfbold;
+            src:url('roxboroughcfbold.otf');}
+
+            @media screen and (max-width: 500px) {
+              .column {
+                width: 100%;
+              }
+            }
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+      background-position: justify;
+      background-attachment: fixed;
+    }
+      body   
+    {  
+    height: 125vh;  
+    margin-top: 100px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: roxboroughcfbold;  
+    
+    }  
+    header {  
+    position: fixed;  
+    left: 10;  
+    right: 10;  
+    top: 10px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: white;  
+    text-decoration: none; 
+    }  
+    
+
+    h1 {
+      font-family: roxboroughcfbold;
+      font-style: normal;
+      font-size: 20;
+      color: rgb(255, 255, 255);
+     text-align: center;
+    }
+
+  p {font-family: roxboroughcfbold;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 15px;
+               
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+a:hover {background-color:hsl(223, 60%, 21%)}
+
